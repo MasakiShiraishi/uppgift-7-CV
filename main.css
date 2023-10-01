@@ -1,0 +1,304 @@
+h1 {
+  font-size: 32px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 24px;
+
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.heading-margin {
+  margin-top: 32px;
+}
+
+.text {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile-image {
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 130px;
+  height: auto;
+  border-radius: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  padding: 32px 0 64px;
+  background-color: #f0f3f5;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.icon-container {
+  display: flex;
+  /* enable flexbox layout */
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s;
+  /* animation effects */
+}
+
+.icon:hover {
+  transform: scale(1.3);
+  /* 1.3x larger display */
+}
+
+/* ----topp link----- */
+/* CSS */
+a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: italic;
+
+}
+
+a:hover {
+  text-decoration: none;
+  transform: scale(1.15);
+}
+
+.centered-links {
+  text-align: center;
+}
+
+.centered-links a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px 7px;
+  border: 1px solid #101010;
+  border-radius: 6px;
+  color: #a1ccb8;
+}
+
+.centered-links a:hover {
+  background-color: #5da9db;
+  color: #fff;
+}
+
+
+
+
+/* -----<section id="contactMe">----- */
+
+/* delete to ・ */
+ul {
+  list-style-type: none;
+}
+
+/* for frame */
+#contactMe {
+  border: 1px solid #ccc;
+  /* adjust border style */
+  padding: 20px;
+  /* add appropriate margins */
+  background-image: url('jess-bailey-q10VITrVYUM-unsplash.jpg');
+  background-size: cover;
+  /* fit images to elements */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* disable image repeat */
+  position: relative;
+  /* set parent element to relative position */
+}
+
+#contactMe::before {
+  content: "";
+  /* add pseudo element */
+  position: absolute;
+  /* placed in absolute position */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.first-block,
+.second-block {
+  position: relative;
+  /* set in relative position */
+  z-index: 1;
+  /* text to the front */
+}
+
+.first-block {
+  font-weight: bold;
+  padding-right: 30%;
+  line-height: 1.5;
+  /* adjust text line height */
+  vertical-align: top;
+}
+
+.second-block {
+  font-size: 90%;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+/* --- <section id="myCarreer">----  */
+.title {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  text-decoration: underline;
+}
+
+#employed {
+  font-size: 85%;
+}
+
+/* place .date on the far right */
+.date {
+  padding-top: 3px;
+  float: right;
+  font-size: small;
+}
+
+/* place .bottom at bottom rigth */
+#myCarreer {
+  position: relative;
+  /* separator line */
+  border-bottom: 2px solid #3498db;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.detail {
+  background-color: rgb(249, 246, 246);
+  font-size: 85%;
+  clear: both;
+  /* clears the elements that come below the .detail element */
+}
+
+/* place .bottom at bottom rigth */
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 10px;
+  /* add margin to top of .bottom */
+  margin-bottom: 2px;
+}
+
+/* color and surround with a square */
+.bottom a {
+  display: inline-block;
+  background-color: #a9b8c2;
+  color: #fff;
+  padding: 1px 4px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  background-color: #4d96c6;
+  font-family: monospace;
+}
+
+#STI {
+  letter-spacing: 7px;
+}
+
+/* ----<section id="aboutMe">----- */
+#aboutMe {
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(248, 247, 247, 0.9);
+  font-style: italic;
+  font-size: 17px;
+}
+
+/* Styles for screen widths less than 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; 
+   
+  }
+
+  .content {
+    padding: 10px; 
+  }
+
+  .profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: 18px; 
+  }
+
+  .icon {
+    width: 20px; /* adjust icon size */
+    height: 20px;
+  }
+
+  .icon-container {
+    gap: 5px;
+  }
+
+  .centered-links a {
+    margin-right: 7px; /* spacing between links */
+    padding: 3px 3px; /* adjust link padding */
+    font-size: 14px; 
+  }
+
+  .centered-links a:hover {
+    transform: scale(1.1); 
+  }
+
+  #contactMe .label,
+  #aboutMe span {
+    font-size: 16px; 
+  }
+
+  #myCarreer .title,
+  #employed {
+    font-size: 16px; 
+  }
+
+  .bottom a {
+    padding: 1px 4px; /* adujst button padding */
+    font-size: 14px; 
+  }
+  
+}
