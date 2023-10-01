@@ -277,8 +277,8 @@ ul {
   }
 
   .centered-links a {
-    margin-right: 5px; /* spacing between links */
-    padding: 2px 2px; /* adjust link padding */
+    margin-right: 7px; /* spacing between links */
+    padding: 3px 2px; /* adjust link padding */
     font-size: 12px; 
   }
 
