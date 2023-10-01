@@ -277,9 +277,9 @@ ul {
   }
 
   .centered-links a {
-    margin-right: 7px; /* spacing between links */
-    padding: 3px 3px; /* adjust link padding */
-    font-size: 14px; 
+    margin-right: 3px; /* spacing between links */
+    padding: 2px 1px; /* adjust link padding */
+    font-size: 12px; 
   }
 
   .centered-links a:hover {
