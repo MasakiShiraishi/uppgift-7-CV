@@ -276,11 +276,11 @@ ul {
     gap: 5px;
   }
 
-  .centered-links a {
+   .centered-links a {
     margin-right: 7px; /* spacing between links */
     padding: 3px 2px; /* adjust link padding */
     font-size: 13px;
-  }
+  } 
 
   .centered-links a:hover {
     transform: scale(1.1); 
